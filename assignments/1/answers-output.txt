@@ -1,0 +1,5 @@
+[('#mgr1',), ('#mgr2',), ('#mgr3',)]
+[('#emp1', 'Bruce Wayne', 'Manager', '#mgr1'), ('#emp2', 'Robert Brick', 'Employee', '#mgr1'), ('#emp3', 'TinTin', 'Employee', '#mgr1'), ('#emp4', 'Denim Gauge', 'Employee', '#mgr1'), ('#emp5', 'Clark Kent', 'Manager', '#mgr2'), ('#emp6', 'Daniel Dim', 'Employee', '#mgr2'), ('#emp7', 'Ben Drool', 'Manager', '#mgr3'), ('#emp8', 'Tracy McGreen', 'Employee', '#mgr3')]
+[('#emp1', 'Bruce Wayne', 'Manager', '#mgr1'), ('#emp2', 'Robert Brick', 'Employee', '#mgr1'), ('#emp3', 'TinTin', 'Employee', '#mgr1'), ('#emp4', 'Denim Gauge', 'Employee', '#mgr1')]
+[(2,)]
+[('#mgr1',)]

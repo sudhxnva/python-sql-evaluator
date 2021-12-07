@@ -1,0 +1,5 @@
+SELECT * FROM Manager
+SELECT * FROM Employees
+SELECT * FROM Employees WHERE mgr_id='#mgr1'
+SELECT COUNT(emp_id) FROM Employees WHERE mgr_id='#mgr2'
+SELECT mgr_id FROM Manager WHERE (SELECT COUNT(*) FROM Employees WHERE Employees.mgr_id=Manager.mgr_id)>=3
