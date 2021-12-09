@@ -3,7 +3,8 @@ import os
 
 dirname = os.path.dirname(os.path.abspath(__file__))
 
-db = sqlite3.connect('employee.db')
+db = sqlite3.connect(os.path.abspath(os.path.join(
+    dirname, 'db', 'employee.db')))
 cursor = db.cursor()
 
 answerFile = open(os.path.abspath(os.path.join(
